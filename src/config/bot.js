@@ -59,6 +59,9 @@ export const botConfig = {
       { question: "What is your roblox username ?", required: true },
       { question: "What is your discord username ?", required: true },
       { question: "What is RDM, Explain and how would you moderate it? 3+ Sentences!", required: true },
+      { question: "What is VDM, Explain and how would you moderate it? 3+ Sentences!", required: true },
+      { question: "What is FRP, Explain and how would you moderate it? 3+ Sentences!", required: true },
+      { question: "What is GTAD, Explain and how would you moderate it? 3+ Sentences!", required: true },
     ],
 
     // Embed colors by application status.
