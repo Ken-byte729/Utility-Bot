@@ -56,7 +56,7 @@ class ApplicationService {
             );
         }
 
-        if (!data.answers || !Array.isArray(data.answers) || data.answers.length === 0) {
+        if (!data.answers || !Array.isArray(data.answers) || data.answers.length === 2) {
             throw createError(
                 'Application must have answers',
                 ErrorTypes.VALIDATION,
