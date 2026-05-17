@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "California State Roleplay",
+        name: "California State Roleplay.",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -58,7 +58,7 @@ export const botConfig = {
     defaultQuestions: [
       { question: "What is your roblox username ?", required: true },
       { question: "What is your discord username ?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "What is RDM, Explain and how would you moderate it? 3+ Sentences!", required: true },
     ],
 
     // Embed colors by application status.
@@ -69,10 +69,10 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24, 
+    applicationCooldown: 2, 
 
     // Auto-delete denied applications after this many days.
-    deleteDeniedAfter: 7, 
+    deleteDeniedAfter: 14, 
 
     // Auto-delete approved applications after this many days.
     deleteApprovedAfter: 30, 
@@ -201,7 +201,7 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: 1497904628967280711,
 
     // Role IDs allowed to manage/support tickets.
     supportRoles: [1493169828549103636],
@@ -242,7 +242,7 @@ export const botConfig = {
     archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1497904740707598436,
   },
 
   // =========================
@@ -275,10 +275,10 @@ export const botConfig = {
   // =========================
   birthday: {
     // Role ID given to users on their birthday.
-    defaultRole: null,
+    defaultRole: 1505532454683938866,
 
     // Channel ID where birthday announcements are posted.
-    announcementChannel: null,
+    announcementChannel: 1490303742564634654,
 
     // Timezone used to calculate birthday dates.
     timezone: "UTC",
