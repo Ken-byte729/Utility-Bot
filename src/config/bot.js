@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "California State Roleplay.",
         // Activity type number (0 = Playing).
-        type: 3, 
+        type: 0, 
       },
     ],
   },
@@ -62,6 +62,11 @@ export const botConfig = {
       { question: "What is VDM, Explain and how would you moderate it? 3+ Sentences!", required: true },
       { question: "What is FRP, Explain and how would you moderate it? 3+ Sentences!", required: true },
       { question: "What is GTAD, Explain and how would you moderate it? 3+ Sentences!", required: true },
+      { question: "A player reports someone for FRP, but the person doesn't have a clip, how would you moderate it ?", required: true },
+      { question: "Is killlogs proof do you, explain why.", required: true },
+      { question: "Is 3+ Witnesses proof do you, explain why.", required: true },
+      { question: "Why do you want to join the California State Staff Team ?", required: true },
+      { question: "Do you have anything else do say ?", required: false },
     ],
 
     // Embed colors by application status.
