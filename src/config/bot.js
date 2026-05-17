@@ -56,8 +56,8 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
+      { question: "What is your roblox username ?", required: true },
+      { question: "What is your discord username ?", required: true },
       { question: "Why do you want to join?", required: true },
     ],
 
@@ -78,7 +78,7 @@ export const botConfig = {
     deleteApprovedAfter: 30, 
 
     // Role IDs allowed to manage applications.
-    managerRoles: [], // Will be populated from environment or database
+    managerRoles: [1493162480539664384], // Will be populated from environment or database
   },
 
   // =========================
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Utilities/california management bot.",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -204,7 +204,7 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1493169828549103636],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -264,10 +264,10 @@ export const botConfig = {
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1493162480539664384],
 
     // Role IDs that bypass giveaway restrictions.
-    bypassRoles: [],
+    bypassRoles: [1495043558896304208],
   },
 
   // =========================
@@ -365,9 +365,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1490261941241778350,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1491828058968035420,
   },
 
   // =========================
